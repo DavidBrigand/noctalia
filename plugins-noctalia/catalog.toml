@@ -1,0 +1,7 @@
+[[plugin]]
+id = "moi/weather-station"
+name = "Ma Station Météo"
+version = "1.0.0"
+author = "moi"
+min_noctalia = "5.0.0"
+plugin_api = 3

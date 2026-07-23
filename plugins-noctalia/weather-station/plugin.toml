@@ -1,0 +1,31 @@
+id = "moi/weather-station"
+name = "Ma Station Météo"
+version = "1.0.0"
+min_noctalia = "5.0.0"
+plugin_api = 3
+author = "moi"
+icon = "temperature"
+description = "Affiche la température de ma station météo locale."
+tags = ["weather"]
+
+[[setting]]
+key = "url"
+type = "string"
+label_key = "settings.url.label"
+default = "http://zytho.fr/gnome_extension.php"
+
+[[setting]]
+key = "interval"
+type = "int"
+label_key = "settings.interval.label"
+default = 60
+min = 10
+max = 3600
+
+[[service]]
+id = "fetcher"
+entry = "service.luau"
+
+[[widget]]
+id = "display"
+entry = "widget.luau"
