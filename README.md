@@ -1,5 +1,6 @@
-# noctalia
+# Noctalia
 Mes configurations pour Noctalia (Debian Trixie)
+* [activer les depot backports pour noctalia](https://docs.noctalia.dev/v5/getting-started/installation/?section=debian#debian) 
 
 # hyprland
 ```hyprland.lua --> ~/.config/hypr/```
